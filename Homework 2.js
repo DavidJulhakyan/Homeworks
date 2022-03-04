@@ -30,7 +30,7 @@ if (num==0){
     a++
     num = Math.trunc(num/10)
 }
-    alert (Math.abs(a))
+    alert (a)
 }
 
 
@@ -43,7 +43,7 @@ while (num){
 }
     num = Math.trunc(num/10)
 }
-alert (Math.abs(a))
+alert (a)
 
 
 //5 Given a positive number. Print it in reverse order.
