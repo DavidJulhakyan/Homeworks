@@ -1,11 +1,10 @@
 //1. Given an array․ Compute the length of the array. (without using .length)
-let arr = [0,1,2,3,4,5]
-let elementCount = 0
-while (arr[0]!==undefined) {
-    arr.pop()
-    elementCount++
+let arr = [1,2,3,4]
+let counter = 0
+while (counter!==arr.length){
+    counter++
 }
-alert(elementCount)
+console.log(counter)
 
 //2. Given an array of numbers. Print the sum of the elements in array.
 let arr = [0,1,2,3]
@@ -99,22 +98,19 @@ let result = 2
                 primeOrNot = false
                 num++
                 i = 2
-                
-                
-                
-            }else if (num % i !== 0 && i !== num){
+                   
+                }else if (num % i !== 0 && i !== num){
                     primeOrNot = false 
 
                     
-            } else if (num % i== 0){
+                } else if (num % i== 0){
                     result = num
                     num++
                     primeOrNot = true
                     break;
             
-                    
-                    
-          }         
-        }          
-    }    
+                        
+                  }         
+             }          
+        }    
 } console.log(result)
